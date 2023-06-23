@@ -191,6 +191,10 @@
     height: 100%;
 }
 
+.contenedor-skills{
+    padding: 50px;
+}
+
 .proyectos-contenedor{
     display: grid;
     grid-template-columns: auto auto;
@@ -252,7 +256,52 @@
     height: 100vh;
 }
 
+.contenedor .contenedor-skills p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 
+.contenedor .contenedor-skills img{
+    width: 100px;
+    margin: 30px 60px 0px 60px;
+}
+
+.contenedor .contenedor-skills h2{
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.contenedor-lenguajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-frameworks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-tecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SECCION SKILLS */
+
+/* ----------------------------------------*/
+
+/* SECCION CONTACTO */
+
+.section-contacto{
+    background: #E4E4E4;
+    height: 100vh;
+}
 
 
 /* SECCION SKILLS */
