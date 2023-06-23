@@ -12,64 +12,122 @@
 <body>
     <!--MENU NAV-->
     <div class="contenedor-header">
-        <header>
-                <div class="logo">
-                    <a href="#">Esteban</a>
-                </div>
-                <nav id="nav">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#sobremi">Sobre Mi</a></li>
-                        <li><a href="#proyectos">Proyectos</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-                <div class="nav-responsive">
-                    <i class="bi bi-list"></i>
-                </div>
+        <header class="contenedor">
+            <div class="logo">
+                <a href="#">Esteban</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">Proyectos</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="bi bi-list"></i>
+            </div>
         </header>
     </div>
 
     <!--SECCION INICIO-->
     <section class="inicio" id="inicio">
-        <div class="contenedor-banner">
-            <div class="contenedor-img">
-                <img src="./assets/fotoperfil.jpg" alt="foto perfil">
-            </div>
-            <h1>ESTEBAN BARRIONUEVO</h1>
-            <h2>Programador fullstack</h2>
-            <div class="redes">
-                <a href="#"><i class="bi bi-github"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-whatsapp"></i></a>
-                <a href="#"><i class="bi bi-discord"></i></a>
+        <div class="contenedor">
+            <div class="contenedor-banner">
+                <div class="contenedor-img">
+                    <img src="./assets/fotoperfil.jpg" alt="foto perfil">
+                </div>
+                <h1>ESTEBAN BARRIONUEVO</h1>
+                <h2>Programador fullstack</h2>
+                <div class="redes">
+                    <a href="#"><i class="bi bi-github"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-discord"></i></a>
+                </div>
             </div>
         </div>
     </section>
 
     <!--SECCION SOBRE MI-->
     <section class="sobremi" id="sobremi">
-        <h2 class="sobremi-title">Sobre mi</h2>
+        <div class="contenedor">
+            <h2 class="section-title">Sobre mi</h2>
 
-        <div class="sobremi-contenedor">
-            <div class="sobremi-img">
-                <img src="./assets/fotoperfil.jpg" alt="">
-            </div>
-            <div class="sobremi-about">
-                <div class="about-subtitulo">
-                    <h3>Esteban Ignacio Barrionuevo</h3>
+            <div class="sobremi-contenedor">
+                <div class="sobremi-img">
+                    <img src="./assets/fotoperfil.jpg" alt="">
                 </div>
-                <div class="about-texto">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptatibus natus modi labore, eos possimus illo fugiat aliquid voluptatum laborum quaerat laudantium illum nam doloribus soluta harum ea iure similique?
+                <div class="sobremi-about">
+                    <div class="about-subtitulo">
+                        <h3>Esteban Ignacio Barrionuevo</h3>
+                    </div>
+                    <div class="about-texto">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptatibus natus modi
+                        labore,
+                        eos possimus illo fugiat aliquid voluptatum laborum quaerat laudantium illum nam doloribus
+                        soluta
+                        harum ea iure similique?
+                    </div>
                 </div>
             </div>
         </div>
-
-
     </section>
 
 
+    <!--SECCION DE PROYECTOS-->
+    <section class="section-proyectos" id="proyectos">
+        <div class="contenedor">
+            <h2 class="section-title">Proyectos</h2>
+
+            <div class="proyectos-contenedor">
+                <div class="proyecto">
+                    <img src="./assets/fotoperfil.jpg" alt="asd">
+                    <h2>Mi Portafolio</h2>
+                    <div class="proyecto-icon">
+                        <i class="bi bi-github"></i>
+                        <i class="bi bi-globe2"></i>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/fotoperfil.jpg" alt="asd">
+                    <h2>Mi Portafolio</h2>
+                    <div class="proyecto-icon">
+                        <i class="bi bi-github"></i>
+                        <i class="bi bi-globe2"></i>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/fotoperfil.jpg" alt="asd">
+                    <h2>Mi Portafolio</h2>
+                    <div class="proyecto-icon">
+                        <i class="bi bi-github"></i>
+                        <i class="bi bi-globe2"></i>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/fotoperfil.jpg" alt="asd">
+                    <h2>Mi Portafolio</h2>
+                    <div class="proyecto-icon">
+                        <i class="bi bi-github"></i>
+                        <i class="bi bi-globe2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION DE SKILLS-->
+
+    <section class="section-skills" id="skills">
+        <div class="contenedor">
+            <h2 class="section-title">Skills</h2>
+        </div>
+    </section>
+
+    <script src="/main.js"></script>
 </body>
+
 </html>

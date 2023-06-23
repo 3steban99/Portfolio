@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 /* HEADER NAV */
 
@@ -127,7 +132,7 @@
     height: 100vh;
 }
 
-.sobremi .sobremi-title{
+.section-title{
     color: #222831;
     text-align: center;
     padding-top: 50px;
@@ -136,7 +141,6 @@
     width: max-content;
     font-size: 40px;
     border-bottom: 5px solid ;
-
 }
 
 .sobremi .sobremi-contenedor{
@@ -175,3 +179,115 @@
     color: #393E46;
     font-size: 20px;
 }
+
+
+/* -------------------------------------- */
+
+
+/* SECCION PROYECTOS */
+
+.section-proyectos{
+    background: #E4E4E4;
+    height: 100%;
+}
+
+.proyectos-contenedor{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 5px;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+
+.proyecto{
+    width: 400px;
+    height: 450px;
+    box-shadow: 0px 4px 25px #bcbcbc;
+    text-align: center; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.proyecto h2{
+    margin: 50px 0px 30px 0px;
+    font-size: 1.5rem;
+
+}
+
+.proyecto img{
+    display: block;
+    width: 400px;
+    height: 230px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.proyecto img:hover{
+    transform: scale(1.05);
+}
+
+
+.proyecto-icon .bi{
+    font-size: 1.5rem;
+    padding: 0 15px 0 15px;
+}
+
+.proyecto-icon .bi:hover{
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+/* SECCION PROYECTOS */
+/* ----------------------------------------*/
+
+
+/* SECCION SKILLS */
+
+.section-skills{
+    background: #EEEEEE;
+    height: 100vh;
+}
+
+
+
+
+/* SECCION SKILLS */
+
+/* ----------------------------------------*/
+
+/* SECCION RESPONSIVE */
+
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+
+    .nav-responsive{
+        display: block;
+    }
+
+    nav.responsive{
+    display: block;
+    background: #222831;
+    width: 100vw;
+    height: 350px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 2rem;
+    top: 70px;
+    right: 0;
+    left: 0;
+    }
+
+    nav.responsive ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+    }
+}
+
