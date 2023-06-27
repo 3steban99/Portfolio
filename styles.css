@@ -78,10 +78,12 @@ html {
 .inicio {
     background: #393E46;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     color: #EEEEEE;
     display: flex;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .inicio .contenedor-banner {
@@ -135,7 +137,8 @@ html {
 
 .sobremi {
     background: #EEEEEE;
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 100px;
 }
 
 .section-title {
@@ -198,7 +201,8 @@ html {
 
 .section-proyectos {
     background: #E4E4E4;
-    height: 150vh;
+    height: 100%;
+    padding-bottom: 100px;
 }
 
 .proyectos-contenedor {
@@ -261,7 +265,8 @@ html {
 
 .section-skills {
     background: #EEEEEE;
-    height: 110vh;
+    height: 100%;
+    padding-bottom: 100px;
 }
 
 .contenedor-skills {
@@ -315,7 +320,8 @@ html {
 
 .section-contacto {
     background: #E4E4E4;
-    height: 70vh;
+    height: 100%;
+    padding-bottom: 100px;
 }
 
 .contenedor-contacto {
@@ -539,10 +545,6 @@ html {
         font-size: 18px;
     }
 
-    .section-proyectos{
-        height: 100%;
-    }
-
     .proyecto {
         width: 280px;
         height: 320px;
@@ -608,10 +610,6 @@ html {
 
     .sobremi-about .about-texto {
         font-size: 18px;
-    }
-
-    .section-proyectos{
-        height: 100%;
     }
 
     .proyecto {
