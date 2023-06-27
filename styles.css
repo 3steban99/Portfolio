@@ -540,7 +540,7 @@ html {
     }
 
     .section-proyectos{
-        height: 200vh;
+        height: 100%;
     }
 
     .proyecto {
@@ -611,7 +611,7 @@ html {
     }
 
     .section-proyectos{
-        height: 200vh;
+        height: 100%;
     }
 
     .proyecto {
