@@ -7,6 +7,7 @@
     <title>Portafolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -42,7 +43,7 @@
                 <h2>Programador fullstack</h2>
                 <div class="redes">
                     <a href="https://github.com/3steban99" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="#" target="_blank"><i class="bi bi-linkedin" ></i></a>
+                    <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
                     <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
                     <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
                     <a href="#" target="_blank"><i class="bi bi-discord"></i></a>
@@ -56,24 +57,24 @@
         <div class="contenedor">
             <h2 class="section-title">Sobre mi</h2>
             <div class="sobremi-cont">
-            <div class="sobremi-contenedor">
-                <div class="sobremi-img">
-                    <img src="./assets/fotoperfil.jpg" alt="">
-                </div>
-                <div class="sobremi-about">
-                    <div class="about-subtitulo">
-                        <h3>Esteban Ignacio Barrionuevo</h3>
+                <div class="sobremi-contenedor">
+                    <div class="sobremi-img">
+                        <img src="./assets/fotoperfil.jpg" alt="">
                     </div>
-                    <div class="about-texto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptatibus natus modi
-                        labore,
-                        eos possimus illo fugiat aliquid voluptatum laborum quaerat laudantium illum nam doloribus
-                        soluta
-                        harum ea iure similique?
+                    <div class="sobremi-about">
+                        <div class="about-subtitulo">
+                            <h3>Esteban Ignacio Barrionuevo</h3>
+                        </div>
+                        <div class="about-texto">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptatibus natus modi
+                            labore,
+                            eos possimus illo fugiat aliquid voluptatum laborum quaerat laudantium illum nam doloribus
+                            soluta
+                            harum ea iure similique?
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -83,7 +84,7 @@
         <div class="contenedor">
             <h2 class="section-title">Proyectos</h2>
 
-            <div class="proyectos-contenedor">
+            <div data-aos="fade-down" class="proyectos-contenedor">
                 <div class="proyecto">
                     <img src="./assets/fotoperfil.jpg" alt="asd">
                     <h2>Mi Portafolio</h2>
@@ -190,10 +191,15 @@
                 <span>Gracias por observar</span>
                 <span>Creado por Esteban Barrionuevo | 2023 Copyright © All Rights Reserved</span>
                 <a href="#inicio"><i class="bi bi-arrow-up-circle"></i></a>
+                <br>
             </div>
         </div>
     </footer>
     <script src="/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
