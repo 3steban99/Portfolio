@@ -180,6 +180,8 @@ html {
     background: #EEEEEE;
     border-radius: 20px;
     box-shadow: 0px 0px 50px -10px #393E46;
+    height: auto;
+    padding: 10px;
 }
 
 .sobremi-about .about-subtitulo {
@@ -191,6 +193,7 @@ html {
 .sobremi-about .about-texto {
     color: #393E46;
     font-size: 20px;
+    padding: 5px 10px 5px 10px;
 }
 
 
@@ -283,6 +286,11 @@ html {
 
 .contenedor .contenedor-skills img {
     width: 100px;
+    transition: transform 0.5s;
+}
+
+.contenedor .contenedor-skills img:hover{
+    transform: scale(1.1);
 }
 
 .contenedor .contenedor-skills h2 {
@@ -364,7 +372,7 @@ html {
     color: #00ADB5;
 }
 
-/* SECCION SKILLS */
+/* SECCION CONTACTO */
 /* ----------------------------------------*/
 
 /* SECCION FOOTER */
@@ -421,7 +429,6 @@ html {
     }
 
     .sobremi .sobremi-contenedor .sobremi-about {
-        height: 200px;
         padding: 10px;
     }
 
@@ -495,7 +502,6 @@ html {
     }
 
     .sobremi .sobremi-contenedor .sobremi-about {
-        height: 200px;
         padding: 10px;
     }
 
@@ -533,9 +539,6 @@ html {
         width: 40%;
     }
 
-    .sobremi .sobremi-contenedor .sobremi-about {
-        height: 250px;
-    }
 
     .sobremi-about .about-subtitulo {
         font-size: 20px;
@@ -600,9 +603,6 @@ html {
         width: 40%;
     }
 
-    .sobremi .sobremi-contenedor .sobremi-about {
-        height: 250px;
-    }
 
     .sobremi-about .about-subtitulo {
         font-size: 20px;
@@ -643,7 +643,8 @@ html {
     }
 
     .contenedor-contacto {
-        width: 280px;
+        width: 250px;
+        font-size: 15px;
     }
 }
 
