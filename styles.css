@@ -12,6 +12,7 @@ html {
     width: 80%;
     margin: 0 auto;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -260,7 +261,7 @@ html {
 
 .section-skills {
     background: #EEEEEE;
-    height: 100vh;
+    height: 110vh;
 }
 
 .contenedor-skills {
@@ -538,14 +539,24 @@ html {
         font-size: 18px;
     }
 
+    .section-proyectos{
+        height: 200vh;
+    }
+
     .proyecto {
-        width: 180px;
-        height: 220px;
+        width: 280px;
+        height: 320px;
+    }
+
+    .proyectos-contenedor{
+        grid-template-columns: auto;
+        column-gap: 0;
+        row-gap: 2rem;
     }
 
     .proyecto img {
-        width: 180px;
-        height: 100px;
+        width: 280px;
+        height: 200px;
     }
 
     .proyecto h2 {
@@ -600,22 +611,28 @@ html {
     }
 
     .section-proyectos{
-        height: 100vh;
+        height: 200vh;
     }
 
     .proyecto {
-        width: 140px;
-        height: 180px;
+        width: 280px;
+        height: 320px;
+    }
+
+    .proyectos-contenedor{
+        grid-template-columns: auto;
+        column-gap: 0;
+        row-gap: 2rem;
     }
 
     .proyecto img {
-        width: 140px;
-        height: 80px;
+        width: 280px;
+        height: 200px;
     }
 
     .proyecto h2 {
-        font-size: 1.1rem;
-        margin: 30px 0 10px 0;
+        font-size: 1rem;
+        margin: 20px 0 10px 0;
     }
 
 
@@ -624,11 +641,11 @@ html {
     }
 
     .contenedor .contenedor-skills img {
-        width: 50px;
+        width: 40px;
     }
 
     .contenedor-contacto {
-        width: 300px;
+        width: 280px;
     }
 }
 
