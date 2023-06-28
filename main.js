@@ -1,17 +1,6 @@
-let menuVisible = false;
+const menu = document.querySelector(".nav-responsive");
 
-function mostrarOcultarMenu(){
-    if(menuVisible){
-        document.getElementById("nav").classList="";
-        menuVisible= false;
-    }else{
-        document.getElementById("nav").classList="responsive";
-        menuVisible= true;
-    }
-}
-
-
-function seleccionar(){
-    document.getElementById("nav").classList = "";
-    menuVisible = false;
+menu.onclick = function(){
+    const navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active")
 }
