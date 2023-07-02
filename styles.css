@@ -19,6 +19,8 @@ html {
 /* HEADER NAV */
 
 header {
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 80px;
     background: #222831;
@@ -26,10 +28,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 999;
 }
 
 header .logo a {
-    font-size: 36px;
+    font-size: 40px;
     color: #00ADB5;
     text-decoration: none;
 }
@@ -48,6 +52,7 @@ header .logo a {
     text-decoration: none;
     padding-bottom: 5px;
     transition: 0.2s;
+    font-size: 20px;
 }
 
 .nav-bar ul li a:hover {
@@ -71,7 +76,8 @@ header .logo a {
 /* SECCION INICIO */
 
 .inicio {
-    background: #393E46;
+    background: url("./assets/fondo.png");
+    background-color: #222831;
     background-size: cover;
     height: 100%;
     color: #EEEEEE;
@@ -79,6 +85,7 @@ header .logo a {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 100px;
+    margin-top: 80px;
 }
 
 .inicio .contenedor-banner {
@@ -92,7 +99,7 @@ header .logo a {
 
 .inicio .contenedor-banner img {
     margin-top: 40px;
-    border: 10px solid #00ADB5;
+    border: 5px solid #00ADB5;
     display: block;
     width: 80%;
     margin: auto;
@@ -130,14 +137,18 @@ header .logo a {
 
 /* SECCION INICIO */
 
+/* -------------------------------------- */
+
+/* SECCION SOBRE MI */
+
 .sobremi {
-    background: #EEEEEE;
+    background: linear-gradient(to bottom, #222831, #393E46);
     height: 100%;
     padding-bottom: 100px;
 }
 
 .section-title {
-    color: #222831;
+    color: #EEEEEE;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 12px;
@@ -145,6 +156,7 @@ header .logo a {
     width: max-content;
     font-size: 40px;
     border-bottom: 5px solid;
+    font-family: 'Lato', sans-serif;
 }
 
 .sobremi .sobremi-contenedor {
@@ -166,31 +178,32 @@ header .logo a {
     width: 70%;
     margin: auto;
     border-radius: 100%;
-    box-shadow: 0px 0px 50px -10px #393E46;
+    box-shadow: 0px 0px 10px 1px #393E46;
 }
 
 .sobremi .sobremi-contenedor .sobremi-about {
     display: flex;
     flex-wrap: wrap;
-    background: #EEEEEE;
+    background: #393E46;
     border-radius: 20px;
-    box-shadow: 0px 0px 50px -10px #393E46;
     height: auto;
     padding: 10px;
+    border: 5px solid #00ADB5;
 }
 
 .sobremi-about .about-subtitulo {
-    color: #393E46;
+    color: #EEEEEE;
     margin: auto;
     font-size: 25px;
 }
 
 .sobremi-about .about-texto {
-    color: #393E46;
+    color: #EEEEEE;
     font-size: 20px;
     padding: 5px 10px 5px 10px;
 }
 
+/* SECCION SOBRE MI */
 
 /* -------------------------------------- */
 
@@ -198,7 +211,7 @@ header .logo a {
 /* SECCION PROYECTOS */
 
 .section-proyectos {
-    background: #E4E4E4;
+    background: linear-gradient(to bottom, #393E46, #EEEEEE);
     height: 100%;
     padding-bottom: 100px;
 }
@@ -219,16 +232,17 @@ header .logo a {
 .proyecto {
     width: 400px;
     height: 450px;
-    box-shadow: 0px 4px 25px #bcbcbc;
+    box-shadow: 0px 0px 25px #393E46;
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
+    background: #E4E4E4
 }
 
 .proyecto h2 {
     margin: 50px 0px 30px 0px;
     font-size: 1.5rem;
-
+    color: #393E46;
 }
 
 .proyecto img {
@@ -248,6 +262,7 @@ header .logo a {
 .proyecto-icon .bi {
     font-size: 1.5rem;
     padding: 0 15px 0 15px;
+    color: #222831;
 }
 
 .proyecto-icon .bi:hover {
@@ -256,15 +271,21 @@ header .logo a {
 }
 
 /* SECCION PROYECTOS */
+
+
 /* ----------------------------------------*/
 
 
 /* SECCION SKILLS */
 
 .section-skills {
-    background: #EEEEEE;
+    background: linear-gradient(to bottom, #EEEEEE, #E4E4E4);
     height: 100%;
     padding-bottom: 100px;
+}
+
+.section-skills .section-title{
+    color: #393E46;
 }
 
 .contenedor-skills {
@@ -277,6 +298,7 @@ header .logo a {
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
+    color: #393E46;
 }
 
 .contenedor .contenedor-skills img {
@@ -291,6 +313,8 @@ header .logo a {
 .contenedor .contenedor-skills h2 {
     text-align: center;
     margin: 50px 0 20px 0;
+    color: #393E46;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor-lenguajes {
@@ -325,6 +349,10 @@ header .logo a {
     background: #E4E4E4;
     height: 100%;
     padding-bottom: 100px;
+}
+
+.section-contacto .section-title{
+    color: #393E46;
 }
 
 .contenedor-contacto {
@@ -377,6 +405,7 @@ header .logo a {
     width: 100%;
     height: 100%;
     margin-top: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor-footer {

@@ -5,10 +5,11 @@ menu.onclick = function () {
     navBar.classList.toggle("active")
 }
 
-function seleccionar(){
+function seleccionar() {
     navBar.classList.remove("active")
 }
 
 document.addEventListener("touchmove", function () {
     navBar.classList.remove("active")
 });
+

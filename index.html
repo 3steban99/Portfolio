@@ -8,37 +8,41 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!--MENU NAV-->
-        <header>
-            <div class="logo">
-                <a href="#">Esteban</a>
-            </div>
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="#home" onclick="seleccionar()">Home</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
-                    <li><a href="#proyectos" onclick="seleccionar()">Proyectos</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive">
-                <i class="bi bi-list"></i>
-            </div>
-        </header>
+    <header>
+        <div class="logo">
+            <a href="#" style="font-family:Georgia, 'Times New Roman', Times, serif;">Esteban</a>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home" onclick="seleccionar()">Home</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                <li><a href="#proyectos" onclick="seleccionar()">Proyectos</a></li>
+                <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive">
+            <i class="bi bi-list"></i>
+        </div>
+    </header>
 
     <!--SECCION INICIO-->
     <section class="inicio" id="inicio">
         <div class="contenedor">
-            <div class="contenedor-banner">
+            <div class="contenedor-banner" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="contenedor-img">
                     <img src="./assets/fotoperfil.jpg" alt="foto perfil">
                 </div>
                 <h1>ESTEBAN BARRIONUEVO</h1>
-                <h2>Programador fullstack</h2>
+                <h2>Programador Fullstack</h2>
                 <div class="redes">
                     <a href="https://github.com/3steban99" target="_blank"><i class="bi bi-github"></i></a>
                     <a href="https://www.linkedin.com/in/esteban-ignacio-barrionuevo/" target="_blank"><i
@@ -47,7 +51,8 @@
                             class="bi bi-instagram"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=+5493814407688&text=Hola Esteban, soy..."
                         target="_blank"><i class="bi bi-whatsapp"></i></a>
-                    <a href="https://discord.com/users/269684052221624320" target="_blank"><i class="bi bi-discord"></i></a>
+                    <a href="https://discord.com/users/269684052221624320" target="_blank"><i
+                            class="bi bi-discord"></i></a>
                 </div>
             </div>
         </div>
@@ -56,20 +61,20 @@
     <!--SECCION SOBRE MI-->
     <section class="sobremi" id="sobremi">
         <div class="contenedor">
-            <h2 class="section-title">Sobre mi</h2>
+            <h2 class="section-title" data-aos="fade-down">Sobre Mi</h2>
             <div class="sobremi-cont">
                 <div class="sobremi-contenedor">
-                    <div class="sobremi-img">
+                    <div class="sobremi-img" data-aos="zoom-in" data-aos-duration="1000">
                         <img src="./assets/fotoperfil.jpg" alt="">
                     </div>
-                    <div class="sobremi-about">
+                    <div class="sobremi-about" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="about-subtitulo">
                             <h3>Esteban Ignacio Barrionuevo</h3>
                         </div>
                         <div class="about-texto">
                             Soy un apasionado por la programacion, la musica y los juegos. Me considero una persona
                             proactiva con motivacion para el continuo perfeccionamiento y adquisicion de nuevas
-                            habilidades y tecnologias en el area de programacion. A contianucion veras algunos proyectos
+                            habilidades y tecnologias en el area de programacion. A continuacion veras algunos proyectos
                             o practicas que he realizado hasta el momento.
                         </div>
                     </div>
@@ -81,10 +86,10 @@
 
     <!--SECCION DE PROYECTOS-->
     <section class="section-proyectos" id="proyectos">
-        <div class="contenedor">
+        <div class="contenedor" data-aos="fade-down">
             <h2 class="section-title">Proyectos</h2>
 
-            <div data-aos="fade-down" class="proyectos-contenedor">
+            <div class="proyectos-contenedor">
                 <div class="proyecto">
                     <img src="./assets/fotoperfil.jpg" alt="asd">
                     <h2>Mi Portafolio</h2>
@@ -124,7 +129,7 @@
     <!--SECCION DE SKILLS-->
 
     <section class="section-skills" id="skills">
-        <div class="contenedor">
+        <div class="contenedor" data-aos="fade-down">
             <h2 class="section-title">Skills</h2>
             <div class="contenedor-skills">
                 <p>Mis lenguajes, frameworks, tecnologias y herramientas:</p>
@@ -160,7 +165,7 @@
     <!--SECCION DE CONTACTO-->
 
     <section class="section-contacto" id="contacto">
-        <div class="contenedor">
+        <div class="contenedor" data-aos="fade-down">
             <h2 class="section-title">Contacto</h2>
             <div class="contenedor-contacto">
                 <div class="contacto-correo">
@@ -182,7 +187,8 @@
                             class="bi bi-instagram"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=+5493814407688&text=Hola Esteban, soy..."
                         target="_blank"><i class="bi bi-whatsapp"></i></a>
-                    <a href="https://discord.com/users/269684052221624320" target="_blank"><i class="bi bi-discord"></i></a>
+                    <a href="https://discord.com/users/269684052221624320" target="_blank"><i
+                            class="bi bi-discord"></i></a>
                 </div>
             </div>
         </div>
