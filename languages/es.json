@@ -1,0 +1,41 @@
+{
+    "header": {
+        "about": "Sobre Mi",
+        "projects": "Proyectos",
+        "skills": "Skills",
+        "contact": "Contacto"
+    },
+
+    "home":{
+        "title": "Programador Fullstack"
+    },
+
+    "about":{
+        "title": "Sobre Mi",
+        "text-box": "Soy un apasionado por la programacion, la musica y los juegos. Me considero una persona proactiva con motivacion para el continuo perfeccionamiento y adquisicion de nuevas habilidades y tecnologias en el area de programacion. A continuacion veras algunos proyectos o practicas que he realizado hasta el momento."
+    },
+
+    "projects":{
+        "title": "Proyectos",
+        "portfolio-box": "Mi Portafolio",
+        "parcial-box": "Parcial Final",
+        "calculator-box": "Calculadora"
+    },
+
+    "skills":{
+        "title": "Skills",
+        "text-box": "Mis lenguajes, frameworks, tecnologias y herramientas:",
+        "subtitle-languages": "Lenguajes",
+        "subtitle-frameworks": "Frameworks",
+        "subtitle-techs": "Tecnologias y Herramientas"
+    },
+
+    "contact": {
+        "title": "Contacto"
+    },
+
+    "footer":{
+        "text": "Gracias por observar",
+        "copyright": "Creado por Esteban Barrionuevo | 2023 Copyright © All Rights Reserved"
+    }
+}

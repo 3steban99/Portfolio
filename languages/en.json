@@ -1,0 +1,35 @@
+{
+    "header": {
+        "about": "About Me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Fullstack Developer"
+    },
+    "about": {
+        "title": "About Me",
+        "text-box": "I am passionate about programming, music, and games. I consider myself a proactive individual with a motivation for continuous improvement and the acquisition of new skills and technologies in the programming field. Below, you will find some projects or practices that I have completed so far."
+    },
+    "projects": {
+        "title": "Projects",
+        "portfolio-box": "My Portfolio",
+        "parcial-box": "Final Exam",
+        "calculator-box": "Calculator"
+    },
+    "skills": {
+        "title": "Skills",
+        "text-box": "My languages, frameworks, technologies and tools:",
+        "subtitle-languages": "Languages",
+        "subtitle-frameworks": "Frameworks",
+        "subtitle-techs": "Technologies and Tools"
+    },
+    "contact": {
+        "title": "Contact"
+    },
+    "footer": {
+        "text": "Thanks for watching",
+        "copyright": "Created By Esteban Barrionuevo | 2023 Copyright © All Rights Reserved"
+    }
+}

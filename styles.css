@@ -68,6 +68,22 @@ header .logo a {
     display: none;
 }
 
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags-item{
+    width: 30px;
+}
+
+.flags-item img{
+    cursor: pointer;
+    display: block;
+}
+
 
 /* HEADER NAV */
 
@@ -150,7 +166,7 @@ header .logo a {
 .section-title {
     color: #EEEEEE;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 12px;
     margin: auto;
     width: max-content;
