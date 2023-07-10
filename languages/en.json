@@ -23,7 +23,8 @@
         "text-box": "My languages, frameworks, technologies and tools:",
         "subtitle-languages": "Languages",
         "subtitle-frameworks": "Frameworks",
-        "subtitle-techs": "Technologies and Tools"
+        "subtitle-techs": "Technologies and Tools",
+        "subtitle-database" : "DataBase"
     },
     "contact": {
         "title": "Contact"
