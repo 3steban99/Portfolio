@@ -33,17 +33,17 @@ header {
 }
 
 header .logo a {
-    font-size: 30px;
-    color: #00ADB5;
+    font-size: 28px;
+    color: #E4E4E4;
     text-decoration: none;
-    border: 3px solid #00ADB5;
-    padding: 5px 10px;
+    background: #00ADB5;
+    padding: 6px 12px;
     border-radius: 5px;
 }
 
 header .logo a:hover{
-    background: #00ADB5;
-    color: #E4E4E4;
+    padding: 7px 13px;
+    transition: 0.5s;
 }
 
 .nav-bar ul {
@@ -61,6 +61,7 @@ header .logo a:hover{
     padding-bottom: 5px;
     transition: 0.2s;
     font-size: 20px;
+    border-bottom: 2px solid #222831;
 }
 
 .nav-bar ul li a:hover {
@@ -453,14 +454,14 @@ header .logo a:hover{
     padding: 10px;
 }
 
-.contenedor-footer a {
+.contenedor-footer i {
     font-size: 40px;
     cursor: pointer;
     color: #EEEEEE;
     text-decoration: none;
 }
 
-.contenedor-footer a:hover {
+.contenedor-footer i:hover {
     color: #00ADB5;
 }
 
@@ -545,6 +546,11 @@ header .logo a:hover{
     .nav-bar ul li a {
         font-size: 25px;
         margin-bottom: 12px;
+    }
+
+    .flags{
+        width: auto;
+        justify-content:space-around;
     }
 }
 
@@ -658,6 +664,10 @@ header .logo a:hover{
 
     header{
         padding: 0 50px;
+    }
+
+    header .logo a {
+        font-size: 22px;
     }
 
     .inicio .contenedor-banner {

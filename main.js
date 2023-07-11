@@ -28,10 +28,21 @@ const changeLanguage = async language => {
         const section = textToChange.dataset.section;
         const value = textToChange.dataset.value;
 
-        textToChange.innerHTML= texts[section][value];
+        textToChange.innerHTML = texts[section][value];
     }
 }
 
 flagsElement.addEventListener("click", (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
 })
+
+
+function scrollToSection(target) {
+    const targetElement = document.querySelector(target);
+    const targetOffsetTop = targetElement.offsetTop;
+    const offset = 80; // Ajusta este valor según sea necesario
+
+    window.scrollTo({
+        top: targetOffsetTop - offset,
+    });
+}

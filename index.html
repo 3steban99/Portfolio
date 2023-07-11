@@ -22,7 +22,7 @@
         </div>
         <nav class="nav-bar">
             <ul>
-                <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                <li><a onclick="seleccionar(),scrollToSection('#inicio')">Home</a></li>
                 <li><a href="#sobremi" data-section="header" data-value="about" onclick="seleccionar()">Sobre Mi</a>
                 </li>
                 <li><a href="#proyectos" data-section="header" data-value="projects"
@@ -103,7 +103,7 @@
 
             <div class="proyectos-contenedor">
                 <div class="proyecto">
-                    <img src="./assets/Portafolio.png" alt="portafolio">
+                    <a href="https://github.com/3steban99/Portfolio" target="_blank"><img src="./assets/Portafolio.png" alt="portafolio"></a>
                     <h2 data-section="projects" data-value="portfolio-box">Mi Portafolio</h2>
                     <div class="proyecto-icon">
                         <a href="https://github.com/3steban99/Portfolio" target="_blank"><i
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="./assets/tuclub.png" alt="tuclub">
+                    <a href="https://tu-club.vercel.app/" target="_blank"><img src="./assets/tuclub.png" alt="tuclub"></a>
                     <h2>Tu Club</h2>
                     <div class="proyecto-icon">
                         <a href="https://github.com/3steban99/TuClub" target="_blank"><i class="bi bi-github"></i></a>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="./assets/maxikiosco.png" alt="maxikiosco">
+                    <a href="https://github.com/3steban99/PARCIAL-FINAL" target="_blank"><img src="./assets/maxikiosco.png" alt="maxikiosco"></a>
                     <h2 data-section="projects" data-value="parcial-box">Parcial Final</h2>
                     <div class="proyecto-icon">
                         <a href="https://github.com/3steban99/PARCIAL-FINAL" target="_blank"><i
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="./assets/calculadora.png" alt="calculadora">
+                    <a href="https://calculadora-basica-esteban.vercel.app/" target="_blank"><img src="./assets/calculadora.png" alt="calculadora"></a>
                     <h2 data-section="projects" data-value="calculator-box">Calculadora</h2>
                     <div class="proyecto-icon">
                         <a href="https://github.com/3steban99/Calculadora-practica" target="_blank"><i
@@ -225,7 +225,7 @@
                 <span data-section="footer" data-value="text">Gracias por observar</span>
                 <span data-section="footer" data-value="copyright">Creado por Esteban Barrionuevo | 2023 Copyright © All
                     Rights Reserved</span>
-                <a href="#inicio"><i class="bi bi-arrow-up-circle"></i></a>
+                <i class="bi bi-arrow-up-circle" onclick="scrollToSection('#inicio')"></i>
                 <br>
             </div>
         </div>
